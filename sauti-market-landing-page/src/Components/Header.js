@@ -20,7 +20,7 @@ export default function Header() {
 
     return (
         <div className='header-container'>
-        <h1 className="header-title">Sauti<br /> MarketPlace</h1>
+        <h1 className="header-title">Sauti<br /> Market</h1>
        
        <div className='nav-buttons'>
         <Button className='header-button' variant="outlined" size="large" onClick={(evt) => history.push(`/`)}>Home</Button>
