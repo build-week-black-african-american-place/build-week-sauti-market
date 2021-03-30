@@ -163,21 +163,6 @@ function NewUserForm (props) {
                   </div>
               </div>
 
-              {newUserFormValues.isInstructor ? 
-                <div>
-                    <p>Welcome! You should have received an instructor code by email.  Please enter it below.</p>
-                    <TextInput
-                      type="text"
-                      name="authCode"
-                      placeholder=" Instructor Code"
-                      onChange={inputChange} 
-                      value={newUserFormValues.authCode}
-                      label={" "}
-                    />
-                </div>
-              : <br/> /* conditional rendering for instructor authorization code */  }
-
-
               <br/>
               <br/>
               <button  id="submitBtn" disabled={newUserDisabled}>Submit</button> 
