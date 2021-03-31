@@ -5,15 +5,17 @@ import Header from './components/Header';
 import ItemForm from './components/Item';
 import Footer from './components/Footer';
 
-
-
 import './App.css';
 import ProductCard from './components/ProductCard';
+// import Header from "./Components/Header";
+// import Footer from "./Components/Footer";
+// import { Router, Route, Switch } from "react-router";
 
 
 // const ProductContext = createContext();
 // const NewUserContext = createContext();  
 // const UserContext = createContext();
+
 
 // const sampleProduct = {
 //   id: 0,
@@ -32,7 +34,7 @@ const App = () => {
   // const [user, setUser] = useState(); //Login 
   return (
     <div className="App">
-
+    
       <header className="App-header"><Header /></header>
       <header className="App-header"><p>Welcome to Landing Page that will render mapped products</p></header>
 
@@ -42,7 +44,6 @@ const App = () => {
        
        <Footer />
      
-
 
     </div>
   );
